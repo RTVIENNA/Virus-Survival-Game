@@ -1,0 +1,90 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 50px;
+    color: white;
+    background-image: url("../images/virusbackground.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgb(35, 36, 59); 
+    
+}
+h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+img {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 140px;
+    height: 140px;
+    margin-top: 0.5cm;
+    margin-right: 0.5cm;
+  }
+  .buttons {
+    margin: 10px;
+    border-radius: 100%;
+    padding: 15px 30px;
+  }
+  button:hover/*Änderung meines Buttons wenn ich mit der Maus drüber fahre */
+   {
+    background-color: black; 
+    color: white;
+    cursor: pointer;
+  }
+
+
+#setup /*Bestimmt die Höhe in der das Balkendiagramm und die Rundenanzeige sich befinden */
+{
+    text-align: center;
+    margin: 20px;
+}
+#octagon /*Das Feld in dem das Balkendiagramm und die Rundenanzeige sich befinden */
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    background-color: transparent;
+
+}
+
+#barChart /*Meine kleine Box in der die Balken angeziegt werden*/
+{
+    #barChart {
+        background-color: transparent;
+        margin-bottom: 10px;
+        overflow: visible; 
+    }
+}
+.bar /*Eigenschaften der Balken */
+{
+    background-color: darkblue;
+    width: 35px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+    color: white;
+    padding: 0px;
+    font-size: 10px;
+
+}
+#log /*Eigenschaften des Rounden Trackers  */
+{
+    color: black;
+    background-color: white;
+    margin-top: 2px;
+    font-size: 14px;
+    overflow-y: auto;
+    border: 2px solid black;
+    padding: 10px;
+    width: 900px;
+    height: 200px; 
+    max-height: 200px;
+
+}
+    
